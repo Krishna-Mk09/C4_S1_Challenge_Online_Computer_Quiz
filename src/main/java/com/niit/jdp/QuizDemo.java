@@ -12,6 +12,13 @@ public class QuizDemo {
     //return the school name which has got the highest score in quiz
     //Handle the NumberFormatException
 
+    /**
+     * It takes an array of strings, and an array of integers, and returns the name of the school with the highest score
+     *
+     * @param nameOfSchool an array of strings containing the names of the schools
+     * @param scores       an array of integers
+     * @return The name of the school with the highest score.
+     */
     public String highestScore(String[] nameOfSchool, String[] scores) {
         int MaxScore;
         try {

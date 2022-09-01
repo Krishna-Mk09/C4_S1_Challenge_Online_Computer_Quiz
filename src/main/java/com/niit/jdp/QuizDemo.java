@@ -33,7 +33,6 @@ public class QuizDemo {
         }
         return nameOfSchool[MaxScore];
     }
-
     //convert all the names in uppercase
     //Handle the NullPointerException
     public String[] convertAllNamesToCapital(String[] name) {

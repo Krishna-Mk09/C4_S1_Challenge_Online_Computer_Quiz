@@ -28,6 +28,4 @@ public class QuizDemoTest {
     public void givenAStringArrayWithStringAsScoreReturnResult() {
         assertEquals("java.lang.NumberFormatException: For input string: \"fifty-six\"", quizDemo.highestScore(new String[]{"DAV", "RSK", "Treamis", "Candor"}, new String[]{"45", "fifty-six", "78", "88"}));
     }
-
-
 }

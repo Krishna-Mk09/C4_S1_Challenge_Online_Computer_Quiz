@@ -5,13 +5,9 @@
  *
  */
 
-
 package com.niit.jdp;
 
 public class QuizDemo {
-    //return the school name which has got the highest score in quiz
-    //Handle the NumberFormatException
-
     /**
      * It takes an array of strings, and an array of integers, and returns the name of the school with the highest score
      *
@@ -33,8 +29,7 @@ public class QuizDemo {
         }
         return nameOfSchool[MaxScore];
     }
-    //convert all the names in uppercase
-    //Handle the NullPointerException
+
     public String[] convertAllNamesToCapital(String[] name) {
         return new String[0];
     }
